@@ -3,7 +3,6 @@ This project implements a face recognition system using a combination of MTCNN f
 
 The system allows users to add known faces, recognize faces in real-time using a camera, and maintain a database of known faces for future identification.
 
-&nbsp;
 
 ## Multiple Identified One Unknown
 ![Multiple Identified One Unknown](assets/multiple.jpg)
@@ -28,7 +27,6 @@ The system allows users to add known faces, recognize faces in real-time using a
 
 - **Multi-Person Support:** Allows detection of multiple people in one frame.
 
-&nbsp;
 
 # **Directory Structure**
 ```lua
@@ -45,7 +43,6 @@ face-recognition-project/
 │           ├── person4.jpg
 
 ```
-&nbsp;
 
 # **How It Works**
 
@@ -151,7 +148,6 @@ def recognize_face(face_image):
 - Compares them using **cosine similarity**.
 - Returns the most similar face if similarity > 0.50.
 
-&nbsp;
 
 # Possible Improvements
 - **Better Accuracy:** Use a more advanced face recognition model or fine-tune FaceNet.
